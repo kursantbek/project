@@ -1,0 +1,286 @@
+@font-face{
+    font-family: "Hamurz Free Version";
+    src: url("../fonts/Hamurz\ Free\ Version/Hamurz Free Version.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face{
+    font-family: "bukhari";
+    src: url("../fonts/bukhari/BukhariScriptAlternates.ttf");
+}
+header{
+    min-height: 700px;
+    height: 100vh;
+    background: url('../img/sliders/homepage.jpg') no-repeat center; 
+    background-size: cover;
+}
+.hed{
+    padding: 0 1%;
+    border-bottom: 1px solid rgba(0,0,0,.17);
+}
+.hed,.header_text>h1{
+    font-family: "Hamurz Free Version";
+}
+.col>span{
+    font-size: 35px;
+}
+.header_text{
+    top: 30%;
+    left: 15%; 
+    overflow: hidden;
+}
+.header_text>h1{
+    letter-spacing: 12.5px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 80px;
+}
+.header_text>span{
+    font-size: 30px;
+}
+.header_text>p{
+    font:italic 18px OpenSans;
+    line-height: 2.2;
+    color: #efefef;
+    margin-bottom: 85px;
+}
+
+.header_text>a{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+.header_text>a .fas{
+   display: none;
+}
+.header_text>a:hover .fas{
+    display: inline-block;
+}
+.programs,.coaches,.fitness,.testimonials,.video{
+    padding: 80px 0;
+}
+.programs,.title,.header_text>span,.header_text>a,.coaches_text>h6,.fitness_title>h6{
+    font-family: "Montserrat-Bold";
+}
+.title{
+    margin-bottom: 70px;
+    letter-spacing: 1.5px;
+    color: #000;
+}
+
+.red{
+    background: #FF1B22;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.coaches{
+    background: url("../img/coaches/bg_one.png") no-repeat center rgba(0, 0, 0, 1);
+    background-size:cover;
+}
+.coaches_iner{
+    overflow: hidden;
+    background: #fff;
+}
+.coaches_img{
+    height: 160px;
+    padding: 10px;
+}
+.coaches_iner:hover{
+    background: #0071bc;
+    -webkit-transition: 150ms ease;
+	-o-transition: 150ms ease;
+	transition: 150ms ease;
+}
+}
+.coaches_iner:hover .coaches_text{
+    color: #fff;
+}
+.coaches_iner:hover .coaches_text>p{
+    color: #4F4C86;
+}
+.coaches_iner:hover .coaches_img,.coaches_iner:hover .fitness_img,.coaches_iner:hover .fitness_img_two{
+    padding: 0;  
+    -webkit-transition: 150ms ease;
+	-o-transition: 150ms ease;
+	transition: 150ms ease;
+}
+.coaches_iner:hover .icon_group{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.coaches_text>p,.fitness_title>p{
+    font-size: 12px;
+    color: #cb1174;
+}
+.coaches_text>span,.fitness_title>span{
+    font-size: 12px;
+
+}
+
+.icon_group{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    line-height: 30px;
+    color: #000;
+}
+.icon_group:hover{
+    background: #fff;
+}
+.icon_group:hover i{
+    color: #00aeff;
+}
+.fitness{
+    background: url(../img/coaches/bg_one.png) no-repeat center  #ff1b22;
+    background-size: cover;
+}
+
+.fitness_img{
+    padding: 10px;
+    height: 270px;
+}
+.fitness_img_two{
+    padding: 10px;
+    height: 302px;
+}
+.fon{
+    font: 12px OpenSans;
+    line-height: 2.2;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #000000;
+}
+.pyy-3{
+    padding: 22px 0;
+}
+.bot{
+    padding: 70px 0 0 0;
+}
+.bot>a{
+    font: 12px "Montserrat-Bold";
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.tex{
+    top: 20%;
+}
+.tex>p{
+    font:18px "Montserrat-Regular";
+}
+.tex>p:nth-child(2){
+    font-size: 12px;
+    color: #777777;
+}
+.tex_block{
+    padding: 40px;
+    background: #0071bc;
+}
+.tex_block>h6{
+    font-family: "bukhari";
+}
+.tex_block>p{
+    font: 12px "Montserrat-Regular";
+}
+.tex_block>span{
+    font: italic 14px OpenSans;
+    line-height: 1.86;
+    letter-spacing: 0.7px;
+}
+.text_block>a{
+    text-decoration: none;
+    margin-right: 5px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+}
+.icon_instagram{
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+}
+.icon_instagram>a{
+    padding: 5px;
+    background: #ff1b22;
+    border: 1px solid #ffffff;
+}
+.hov{
+    overflow: hidden;
+}
+.decr{
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding-top: 80px;
+    opacity: 0;
+    text-align: center;
+    transform: rotateY(90deg);
+    transition: all .5s;
+}
+.hov:hover .decr{
+    top: 0;
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+.footer_wrap{
+    padding: 20px 0;
+    background: #2D364C;
+}
+.footer_info>h6{
+    font-family: "Montserrat-Regular";
+    padding: 20px 0;
+}
+.borde{
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #5c8bcb;
+}
+.footer_info>p{
+    font-family: OpenSans,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0 0 0;
+    line-height: 2.31;
+}
+.footer_icon{
+    padding: 20px 0;
+}
+.footer_icon>a{
+    padding-right: 10px;
+    color: #fff;
+}
+.footer_i{
+    display: inline-block;
+}
+.three{
+    color: #5c8bcb;
+}
+.footer_button{
+    background: #0071BE;
+}
+.footer_button>p{
+    margin: 0;
+   padding: 20px 0;
+}
+
+.footer_button>a{
+    left: 50%;
+    margin-top: -30px;
+    padding: 15px;
+    background: #0071BE;
+    text-decoration: none;
+    transform: translateX(-75%);
+}
+#top{
+}
